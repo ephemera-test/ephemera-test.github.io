@@ -7257,6 +7257,9 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   -o-background-size: cover;
   background-size: cover;
 } */
+body {
+  background: #000;
+}
 .site {
   position: absolute;
   padding: 40px;
