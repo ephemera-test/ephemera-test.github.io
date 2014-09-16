@@ -7265,6 +7265,10 @@ body {
   padding: 40px;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
+  width: 95%;
+}
+.title {
+  padding: 0px;
 }
 ul {
   margin: 0px;
@@ -7284,6 +7288,38 @@ a {
 }
 a:hover {
   text-decoration: none;
+}
+.video-list {
+  position: absolute;
+  right: 0px;
+}
+.video-list li {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.15);
+  margin-right: 7.5px;
+  text-transform: uppercase;
+  /* transition */
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  -o-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.video-list li:hover {
+  background: rgba(0, 0, 0, 0.55);
+}
+.video-list li:last-child {
+  margin-right: 0px;
+}
+.video-list a {
+  color: #fff;
 }
 .main-menu {
   margin-top: 40px;

@@ -13,7 +13,13 @@ body {
 .site {position: absolute;
 		padding: 40px;
 		font-family: 'Raleway', sans-serif;
-		font-weight: 100;}
+		font-weight: 100;
+		width: 95%;
+	}
+
+.title {
+	padding: 0px;
+}
 
 ul {
 	margin: 0px;
@@ -29,6 +35,32 @@ a:hover {
 	text-decoration: none;
 }
 
+.video-list {
+	position: absolute;
+	right: 0px;
+
+	li {
+		float: left;
+		text-align: center;
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.15);
+		margin-right: 7.5px;
+		text-transform: uppercase;
+		.transition;
+		font-size: 11px;
+		letter-spacing: 1px;
+		&:hover {
+		background: rgba(0, 0, 0, 0.55);}
+	}
+
+	li:last-child {
+		margin-right: 0px;
+	}
+
+	a {color: #fff;
+		}
+
+}
 
 .main-menu {
 	margin-top: 40px;
