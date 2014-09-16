@@ -7259,4 +7259,53 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 } */
 .site {
   position: absolute;
+  padding: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+a {
+  /* transition */
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  -o-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+a:hover {
+  text-decoration: none;
+}
+.main-menu {
+  margin-top: 40px;
+}
+.main-menu li {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  /* transition */
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  -o-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.main-menu li:hover {
+  background: rgba(0, 0, 0, 0.55);
+}
+.main-menu a {
+  color: #fff;
 }
