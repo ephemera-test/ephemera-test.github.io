@@ -8,7 +8,24 @@
 
 body {
 	background: #000;
+
+	@media (max-width: @screen-sm-max) 
+	{ background: url(/assets/img/ephemera.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;} 
+
+};
+	
+
+#big-video-wrap {
+
+	@media (max-width: @screen-sm-max) { visibility: hidden; display: none; };
+
+
 }
+
 
 .site {position: absolute;
 		padding: 40px;
@@ -40,17 +57,20 @@ a:hover {
 	right: 0px;
 
 	li {
+		cursor: pointer;
 		float: left;
 		text-align: center;
-		padding: 10px;
+		padding: 10px 20px;
 		background: rgba(0, 0, 0, 0.15);
 		margin-right: 7.5px;
 		text-transform: uppercase;
 		.transition;
 		font-size: 11px;
-		letter-spacing: 1px;
+		letter-spacing: 2px;
+		font-weight: 400;
 		&:hover {
-		background: rgba(0, 0, 0, 0.55);}
+		background: rgba(0, 0, 0, 0.55);
+		}
 	}
 
 	li:last-child {
@@ -72,7 +92,7 @@ a:hover {
 		text-transform: uppercase;
 		.transition;
 		font-size: 11px;
-		letter-spacing: 1px;
+		letter-spacing: 2px;
 		&:hover {
 		background: rgba(0, 0, 0, 0.55);
 	}

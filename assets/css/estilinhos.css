@@ -7260,6 +7260,21 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 body {
   background: #000;
 }
+@media (max-width: 991px) {
+  body {
+    background: url(/assets/img/ephemera.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media (max-width: 991px) {
+  #big-video-wrap {
+    visibility: hidden;
+    display: none;
+  }
+}
 .site {
   position: absolute;
   padding: 40px;
@@ -7294,9 +7309,10 @@ a:hover {
   right: 0px;
 }
 .video-list li {
+  cursor: pointer;
   float: left;
   text-align: center;
-  padding: 10px;
+  padding: 10px 20px;
   background: rgba(0, 0, 0, 0.15);
   margin-right: 7.5px;
   text-transform: uppercase;
@@ -7310,7 +7326,8 @@ a:hover {
   -o-transition: all 0.75s ease-out;
   transition: all 0.75s ease-out;
   font-size: 11px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 .video-list li:hover {
   background: rgba(0, 0, 0, 0.55);
@@ -7340,7 +7357,7 @@ a:hover {
   -o-transition: all 0.75s ease-out;
   transition: all 0.75s ease-out;
   font-size: 11px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .main-menu li:hover {
   background: rgba(0, 0, 0, 0.55);
