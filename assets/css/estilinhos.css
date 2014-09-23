@@ -7300,13 +7300,15 @@ a {
   -moz-transition: all 0.75s ease-out;
   -o-transition: all 0.75s ease-out;
   transition: all 0.75s ease-out;
+  color: #f6382d;
+  font-weight: 400;
 }
 a:hover {
   text-decoration: none;
+  color: #787878;
 }
 .video-list {
-  position: absolute;
-  right: 0px;
+  padding: 30px 0px;
 }
 .video-list li {
   cursor: pointer;
@@ -7341,7 +7343,8 @@ a:hover {
 .main-menu {
   margin-top: 60px;
 }
-.main-menu li {
+.main-menu li a {
+  display: block;
   text-align: center;
   padding: 10px;
   background: rgba(0, 0, 0, 0.15);
@@ -7358,10 +7361,27 @@ a:hover {
   transition: all 0.75s ease-out;
   font-size: 11px;
   letter-spacing: 2px;
+  font-weight: 100;
 }
-.main-menu li:hover {
+.main-menu li a:hover {
   background: rgba(0, 0, 0, 0.55);
 }
 .main-menu a {
   color: #fff;
+}
+.content .text {
+  margin-top: 60px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  letter-spacing: 0.5px;
+  line-height: 21px;
+}
+.content h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
 }

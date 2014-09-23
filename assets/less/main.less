@@ -45,17 +45,18 @@ ul {
 }
 
 a {
-	.transition
+	.transition;
+	color: #f6382d;
+	font-weight: 400;
 }
 
 a:hover {
 	text-decoration: none;
+	color: rgb(120, 120, 120);
 }
 
 .video-list {
-	position: absolute;
-	right: 0px;
-
+	padding: 30px 0px;
 	li {
 		cursor: pointer;
 		float: left;
@@ -85,6 +86,8 @@ a:hover {
 .main-menu {
 	margin-top: 60px;
 	li {
+		a {
+			display: block;
 		text-align: center;
 		padding: 10px;
 		background: rgba(0, 0, 0, 0.15);
@@ -93,7 +96,9 @@ a:hover {
 		.transition;
 		font-size: 11px;
 		letter-spacing: 2px;
-		&:hover {
+		font-weight: 100;
+		}
+		a:hover {
 		background: rgba(0, 0, 0, 0.55);
 	}
 	}
@@ -102,4 +107,28 @@ a:hover {
 
 	a {color: #fff;
 		}
+}
+
+.content {
+
+	.text {
+			margin-top: 60px;
+
+		padding: 20px;
+		background: rgba(0, 0, 0, 0.25);
+		color: #fff;
+		letter-spacing: 0.5px;
+		line-height: 21px;
+	}
+
+	h4 {
+		text-transform: uppercase;
+		color: #fff;
+		font-weight: 100;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		letter-spacing: 2px;
+	}
+	
+
 }

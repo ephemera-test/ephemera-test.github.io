@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "About"
+categories: text
+---
+
+Bringing together scene and sound, Ephemera is an installation that presents olfactory compositions based on musical resonances and reverberations. The nose behind the project is Berlin-based Geza Schoen, known for the groundbreaking Escentric Molecules series as well as various avant-garde/conceptual scents.  
+
+
+In the first phase of the project, three musicians - Ben Frost, Tim Hecker, and Steve Goodman (aka Kode9) - created raw sonic material which Schoen then reinterpreted to create three different scents: Noise, Drone and Bass.
+These scents and sounds are now used in an installation environment in galleries around the world, while the scents have been bottled.
