@@ -1,19 +1,25 @@
 ---
 layout: default
-title: Ephemera
+title: About
 ---
 
 
           <div class="row header">
-
-<div class="col-lg-2 col-md-2 col-sm-3 ">
+            <div class="col-lg-2 col-md-2 col-sm-3 ">
   
             {% include sidebar.html %}
               
             </div>
           
             <div class="col-lg-7 col-md-7 col-sm-7 content">
-                
+              <div class="text">
+                {% for post in site.posts %}
+                  {% if post.title == 'Contact' %}
+                      <h4>{{ post.title }}</h4>
+                      {{ post.content }}
+                  {% endif %}
+                {% endfor %}
+              </div>
             </div>
 
           </div>
