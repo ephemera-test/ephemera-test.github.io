@@ -7,33 +7,31 @@
 } */
 
 body {
-	background: #000;
+	
 
-	@media (max-width: @screen-sm-max) 
-	{ background: url(/assets/img/ephemera.jpg) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;} 
+	
+	background: url('/assets/img/pw_maze_white.png'); 
+	 
 
 }
 
 
-body.perfume {
-	
-	
-	 background: url(/assets/img/ephemera-2.jpg) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover; 
-
+.svg-container {
+display: inline-block;
+position: relative;
+width: 100%;
+padding-bottom: 100%;
+vertical-align: middle;
+overflow: hidden;
 }
 
-body.about {
-	background: #000;
+.svg-content {
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
 }
-	
+
 
 #big-video-wrap {
 
@@ -44,10 +42,8 @@ body.about {
 
 
 .site {position: absolute;
-		padding: 40px;
 		font-family: 'Raleway', sans-serif;
-		font-weight: 100;
-		width: 95%;
+		font-weight: 300;
 	}
 
 .title {
@@ -99,43 +95,58 @@ a:hover {
 
 }
 
-.main-menu {
-	margin-top: 60px;
-	li {
-		a {
-			display: block;
-		text-align: center;
-		padding: 10px;
-		background: rgba(0, 0, 0, 0.15);
-		margin-bottom: 10px;
-		text-transform: uppercase;
-		.transition;
-		font-size: 11px;
-		letter-spacing: 2px;
-		font-weight: 100;
-		}
-		a:hover {
-		background: rgba(0, 0, 0, 0.55);
-	}
-	}
-
+.menu {
+	max-height: 110px; 
+	overflow: hidden;
+	background: #fff;
+	padding-top: 45px;
+	padding-bottom: 10px;
 	
+	li {
+			float: left;
+			a {
+			display: block;
+			padding: 3px 15px 0px 15px;
+			margin-left: 10px;
+			text-transform: uppercase;
+			.transition;
+			font-size: 11px;
+			letter-spacing: 2px;
+			font-weight: 400;
+			color: rgb(30, 30, 30);
 
-	a {color: #fff;
+			}
+		
+			a:hover {
+			color: rgb(160, 160, 160)
+			}
+		
+			&.e-logo {
+			width: 120px;
+			margin-right: 15px;
+			margin-left: 80px;
+			}
+
+
 		}
+
+		
 }
 
 .content {
 
+	padding: 80px;
+
 	.text {
 
-		margin-top: 60px;
-		padding: 20px;
-		background: rgba(255, 255, 255, 0.75);
+		background: #fff;
+		padding: 25px;
+		background: rgba(255, 255, 255, 1);
 		color: rgb(30, 30, 30);
 		letter-spacing: 0.5px;
-		line-height: 21px;
-		font-weight: 200;
+		line-height: 19px;
+		font-size: 12px;
+		font-weight: 400;
 	}
 
 	h4 {
@@ -145,7 +156,7 @@ a:hover {
 		margin-top: 0px;
 		margin-bottom: 20px;
 		letter-spacing: 2px;
-		font-weight: 200;
+		font-weight: 400;
 	}
 	
 
