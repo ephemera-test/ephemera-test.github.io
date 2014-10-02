@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 title:  "About"
 categories: text
+img: noise-1.jpg
 ---
 
 Bringing together scene and sound, Ephemera is an installation that presents olfactory compositions based on musical resonances and reverberations. The nose behind the project is Berlin-based Geza Schoen, known for the groundbreaking Escentric Molecules series as well as various avant-garde/conceptual scents.  

@@ -1,8 +1,18 @@
 ---
-layout: post
+layout: default
 ---
-<h2>{{ page.title }}</h2>
+<div class="col-lg-8 col-md-8 col-sm-7 ">
+                <img src="/assets/img/{{ page.img }}" class="img-responsive"/>
+            </div>
 
-<div class="post">
-{{ content }}
-</div>
+
+            <div class="col-lg-4 col-md-4 col-sm-3 ">
+              
+              <div class="text">
+                
+                      <h4>{{ page.title }}</h4>
+                      {{ page.content }}
+                 
+              </div>
+              
+            </div>
