@@ -7378,10 +7378,15 @@ a:hover {
 .menu li.e-logo {
   width: 120px;
   margin-right: 15px;
-  margin-left: 80px;
+  margin-left: 95px;
+}
+.menu li a.a-logo {
+  display: inline;
+  padding: 0px;
+  margin-left: 0px;
 }
 .content {
-  padding: 80px;
+  padding: 60px 80px;
 }
 .content .text {
   background: #fff;
