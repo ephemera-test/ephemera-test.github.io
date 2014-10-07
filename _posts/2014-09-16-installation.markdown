@@ -2,7 +2,7 @@
 layout: post
 title:  "Installation"
 categories: text
-img: noise-1.jpg
+img: installation.jpg
 ---
 
 The initial stage of the Ephemera installation was launched at Unsound Festival New York in the spring of 2014 at Audio Visual Arts.
