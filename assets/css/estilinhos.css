@@ -7257,8 +7257,20 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   -o-background-size: cover;
   background-size: cover;
 } */
+html {
+  height: 100%;
+}
 body {
-  background: url('/assets/img/pw_maze_white.png');
+  background: #f5f5f5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dcdcdc), color-stop(1, #f5f5f5));
+  background: -ms-linear-gradient(bottom, #dcdcdc 0%, #f5f5f5 100%);
+  background: -moz-linear-gradient(center bottom, #dcdcdc 0%, #f5f5f5 100%);
+  background: -o-linear-gradient(#f5f5f5, #dcdcdc);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#dcdcdc', GradientType=0);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .svg-container {
   display: inline-block;
@@ -7346,7 +7358,7 @@ a:hover {
   max-height: 110px;
   overflow: hidden;
   background: #fff;
-  padding-top: 45px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 .menu li {
@@ -7354,7 +7366,7 @@ a:hover {
 }
 .menu li a {
   display: block;
-  padding: 3px 15px 0px 15px;
+  padding: 15px 15px 15px 15px;
   margin-left: 10px;
   text-transform: uppercase;
   /* transition */
@@ -7378,6 +7390,7 @@ a:hover {
   width: 120px;
   margin-right: 15px;
   margin-left: 95px;
+  padding-top: 15px;
 }
 .menu li a.a-logo {
   display: inline;
@@ -7438,7 +7451,7 @@ h6.authors {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.perfume.text {
+.perfume .text {
   min-height: 200px;
 }
 button {
