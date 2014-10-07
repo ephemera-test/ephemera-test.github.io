@@ -7413,7 +7413,7 @@ a:hover {
   /* 16:9 */
   padding-top: 25px;
   height: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .videoWrapper iframe {
   position: absolute;
@@ -7432,4 +7432,10 @@ a:hover {
   .logo-img {
     margin-top: -13px;
   }
+}
+h6.authors {
+  margin: 0px 0px 20px 0px;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
