@@ -7419,6 +7419,44 @@ a:hover {
   letter-spacing: 2px;
   font-weight: 400;
 }
+.content a.shop-btn {
+  background: #f0f0f0;
+  padding: 25px;
+  font-size: 12px;
+  /* transition */
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  -o-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+  display: block;
+}
+.content a.shop-btn button {
+  border: 0px;
+  padding: 0px;
+  /* transition */
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  -o-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+  background: #f0f0f0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.content a.shop-btn:hover {
+  background: #c8c8c8;
+  color: #FFFFFF;
+}
+.content a.shop-btn:hover button {
+  background: #c8c8c8;
+}
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -7452,22 +7490,45 @@ h6.authors {
   letter-spacing: 1px;
 }
 .perfume .text {
-  min-height: 200px;
+  min-height: 185px;
 }
-button {
-  border: 0px;
-  background: #ffffff;
-  padding: 0px;
-  margin-top: 20px;
+.perfume .text p {
+  margin: 0px;
+}
+.carousel .item {
+  left: 0 !important;
   /* transition */
-  -webkit-transition: all 1s linear;
-  -moz-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  transition: all 1s linear;
-  -webkit-transition: all 0.75s ease-out;
-  -moz-transition: all 0.75s ease-out;
-  -o-transition: all 0.75s ease-out;
-  transition: all 0.75s ease-out;
+  -webkit-transition: opacity 8s;
+  -moz-transition: opacity 8s;
+  -o-transition: opacity 8s;
+  transition: opacity 8s;
+  -webkit-transition: all opacity 8s ease-out;
+  -moz-transition: all opacity 8s ease-out;
+  -o-transition: all opacity 8s ease-out;
+  transition: all opacity 8s ease-out;
+}
+.carousel .carousel-control {
+  background-image: none;
+}
+.carousel .next.left,
+.carousel .prev.right {
+  opacity: 1;
+  z-index: 1;
+}
+.carousel .active.left,
+.carousel .active.right {
+  opacity: 0;
+  z-index: 2;
+}
+.text ul {
+  margin-top: 20px;
+}
+.text li {
+  margin-bottom: 10px;
+}
+.text li strong {
+  display: block;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 78%;
 }
