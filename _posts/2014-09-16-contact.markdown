@@ -5,4 +5,4 @@ categories: text
 img: all.jpg
 ---
 
-Write to <a href="mailto:info@ephemera.pl">info@ephemera.pl</a> for information on the Ephemera installations or Ephemera perfumes.
+Write to [info@ephemera.pl](mailto:info@ephemera.pl) for information on the Ephemera installations or Ephemera perfumes.
