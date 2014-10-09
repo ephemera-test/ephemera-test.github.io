@@ -7272,20 +7272,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.svg-container {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%;
-  vertical-align: middle;
-  overflow: hidden;
-}
-.svg-content {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 @media (max-width: 991px) {
   #big-video-wrap {
     visibility: hidden;
@@ -7391,6 +7377,7 @@ a:hover {
   margin-right: 15px;
   margin-left: 95px;
   padding-top: 15px;
+  padding-bottom: 44px;
 }
 .menu li a.a-logo {
   display: inline;
