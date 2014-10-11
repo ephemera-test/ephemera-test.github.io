@@ -2,28 +2,53 @@
 layout: default
 ---
 <div class="col-lg-4 col-md-4 col-sm-4 ">
-              <img src="/assets/img/{{ page.img[2] }}" class="img-responsive"/>
-              <div class="text">
-                      {{ page.textz[2] }}
-              </div>
+              
+              
+                  {% for post in site.posts %}
+                    {% if post.title == 'bass' %}
+                      <img src="/assets/img/{{ post.img }}" class="img-responsive"/>
+                        <div class="text">
+                          <h4>{{ post.title }}</h4>
+                          {{ post.content }}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+              
               
 </div>
 
 <div class="col-lg-4 col-md-4 col-sm-4 ">
-               <img src="/assets/img/{{ page.img[1] }}" class="img-responsive"/>
-               <div class="text">
-                      {{ page.textz[1] }}                 
-              </div>
-               
+              
+              
+                  {% for post in site.posts %}
+                    {% if post.title == 'drone' %}
+                      <img src="/assets/img/{{ post.img }}" class="img-responsive"/>
+                        <div class="text">
+                          <h4>{{ post.title }}</h4>
+                          {{ post.content }}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+              
+              
 </div>
 
 <div class="col-lg-4 col-md-4 col-sm-4 ">
-               <img src="/assets/img/{{ page.img[0] }}" class="img-responsive"/>
-               <div class="text">
-                      {{ page.textz[0] }}
-              </div>
+              
+              
+                  {% for post in site.posts %}
+                    {% if post.title == 'noise' %}
+                      <img src="/assets/img/{{ post.img }}" class="img-responsive"/>
+                        <div class="text">
+                          <h4>{{ post.title }}</h4>
+                          {{ post.content }}
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+              
               
 </div>
+
 
 
 
