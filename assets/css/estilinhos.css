@@ -7377,12 +7377,12 @@ a:hover {
 .menu li.e-logo {
   width: 180px;
   padding-right: 10px;
-  margin-left: 95px;
 }
 .menu li a.a-logo {
-  display: inline;
+  display: block;
   padding: 0px;
   margin-left: 0px;
+  width: 180px;
 }
 .content {
   padding: 60px 80px;
