@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400);
 @import "../../bower_components/BigVideo.js/css/bigvideo.css";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
@@ -7341,18 +7342,19 @@ a:hover {
   color: #fff;
 }
 .menu {
-  max-height: 110px;
   overflow: hidden;
   background: #fff;
-  padding-top: 30px;
-  padding-bottom: 10px;
+}
+.menu ul {
+  padding: 25px 0px 25px 95px;
 }
 .menu li {
-  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 .menu li a {
-  display: block;
-  padding: 15px 15px 15px 15px;
+  padding: 0px 20px;
   margin-left: 10px;
   text-transform: uppercase;
   /* transition */
@@ -7373,11 +7375,9 @@ a:hover {
   color: #a0a0a0;
 }
 .menu li.e-logo {
-  width: 120px;
-  margin-right: 15px;
+  width: 180px;
+  padding-right: 10px;
   margin-left: 95px;
-  padding-top: 15px;
-  padding-bottom: 44px;
 }
 .menu li a.a-logo {
   display: inline;
@@ -7520,4 +7520,7 @@ h6.authors {
 }
 .installation .content img.down20 {
   margin-bottom: 20px;
+}
+.kode {
+  font-family: 'Quicksand', sans-serif;
 }
