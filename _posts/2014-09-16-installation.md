@@ -3,8 +3,10 @@ layout: installation
 title:  "Installation"
 categories: text
 img: 
-- installation.jpg
-- installation-2.jpg
+- insta-1.jpg
+- insta-2.jpg
+- insta-3.jpg
+- insta-4.jpg
 ---
 
 Ephemera was first conceived as an installation, to emphasise the synaesthethic properties of the project, with visitors immersing themselves in scent, sound and visual elements. The aim is to explore a disorienting and rewarding interzone where the human senses blur. The focus on the olfactory opens up new interactions between scent and sound, image and light, the material and the immaterial.

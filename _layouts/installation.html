@@ -2,8 +2,20 @@
 layout: default
 ---
 <div class="col-lg-8 col-md-8 col-sm-7 ">
-                <img src="/assets/img/{{ page.img[0] }}" class="img-responsive down20"/>
-                <!--<img src="/assets/img/{{ page.img[1] }}" class="img-responsive down20"/>-->
+    
+    <div id="myCarousel" class="carousel slide">
+ 
+		  <!-- Carousel items -->
+		  <div class="carousel-inner">
+		    <div class="active item"><img src="/assets/img/{{ page.img[0] }}" class="img-responsive"/></div>
+		    <div class="item"><img src="/assets/img/{{ page.img[1] }}" class="img-responsive"/></div>
+		    <div class="item"><img src="/assets/img/{{ page.img[2] }}" class="img-responsive"/></div>
+		    <div class="item"><img src="/assets/img/{{ page.img[3] }}" class="img-responsive"/></div>
+		  </div>
+
+  
+	</div>
+               
             </div>
 
 
@@ -17,3 +29,11 @@ layout: default
               </div>
               
             </div>
+
+<script type='text/javascript'>
+    $(document).ready(function() {
+         $('.carousel').carousel({
+             interval: 2000
+         })
+    });    
+</script>
